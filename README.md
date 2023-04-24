@@ -5,4 +5,5 @@ Supermarket sales by Gender and date
 
 
 
-[](https://github.com/NicJC/Supermarket_sales/blob/main/Summermarket%20sales.png)
+
+![alt text](https://github.com/NicJC/Supermarket_sales/blob/main/Summermarket%20sales.png)
