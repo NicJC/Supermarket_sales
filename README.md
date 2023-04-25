@@ -31,5 +31,14 @@ geom_point() +
 
 ![alt text](https://github.com/NicJC/Supermarket_sales/blob/main/Summermarket%20sales.png)
 
+Below is a graph with 2nd order polynomial smoothing
 
-![alt text](https://github.com/NicJC/Supermarket_sales/blob/main/sales%20with%202nd%20order%20polynomial.png)
+---
+ggplot(df, mapping = aes(x = UnitPrice, y = Total, col = Gender)) + 
+geom_jitter() +
+  geom_smooth(method = "loess", se = T, formula = 'y~poly(x,2)', col = "darkred", lwd = 2) +
+  labs(ylab = "Total", xlab = "Unit Price", title ="Summermarket sales" , subtitle = "2nd Order polynimial smoothing")
+---  
+
+
+![alt text](https://github.com/NicJC/Supermarket_sales/blob/main/sales%20%26%202nd%20order%20polynomial.png)
