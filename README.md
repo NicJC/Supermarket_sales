@@ -37,7 +37,7 @@ Below is a graph with 2nd order polynomial smoothing
 ggplot(df, mapping = aes(x = UnitPrice, y = Total, col = Gender)) + 
 geom_jitter() +
   geom_smooth(method = "loess", se = T, formula = 'y~poly(x,2)', col = "darkred", lwd = 2) +
-  labs(ylab = "Total", xlab = "Unit Price", title ="Summermarket sales" , subtitle = "2nd Order polynimial smoothing")
+  labs(ylab = "Total", xlab = "Unit Price", title ="Summermarket sales" , subtitle = "2nd Order polynomial smoothing")
 ---  
 
 ![alt text](https://github.com/NicJC/Supermarket_sales/blob/main/sales%20%26%202nd%20order%20polynomial.png)
