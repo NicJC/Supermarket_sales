@@ -30,3 +30,6 @@ geom_point() +
 
 
 ![alt text](https://github.com/NicJC/Supermarket_sales/blob/main/Summermarket%20sales.png)
+
+
+![alt text](https://github.com/NicJC/Supermarket_sales/blob/main/sales%20with%202nd%20order%20polynomial.png)
