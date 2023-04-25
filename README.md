@@ -41,4 +41,4 @@ geom_jitter() +
 ---  
 
 
-![alt text](https://github.com/NicJC/Supermarket_sales/blob/main/sales%20%26%202nd%20order%20polynomial.png)
+
