@@ -33,3 +33,10 @@ ggpairs(df[, c(1:3)], mapping = ggplot2::aes(color = 4), upper = list(continuous
 
 
 ggsave("ggpairs.png", width = 6, height = 6)
+
+ggplot(df, mapping = aes(x = UnitPrice, y = Total, col = Gender)) + geom_jitter() +
+  geom_smooth(method = "loess", se = T, formula = 'y~poly(x,2)', col = "darkred", lwd = 2) +
+  labs(ylab = "Total", xlab = "Unit Price", title ="Summermarket sales" , subtitle = "2nd Order polynimial smoothing")
+
+
+ggsave("sales & 2nd order polynomial.png", width = 6, height = 6)
