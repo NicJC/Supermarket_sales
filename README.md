@@ -40,5 +40,5 @@ geom_jitter() +
   labs(ylab = "Total", xlab = "Unit Price", title ="Summermarket sales" , subtitle = "2nd Order polynimial smoothing")
 ---  
 
-
+![alt text](https://github.com/NicJC/Supermarket_sales/blob/main/sales%20%26%202nd%20order%20polynomial.png)
 
